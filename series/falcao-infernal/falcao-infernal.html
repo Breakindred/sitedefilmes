@@ -18,9 +18,54 @@
 .header{
 width: 100%;
 height: 100vh;
-background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(img/images/s-2-2.jpg);
+background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(s-2-2.jpg);
 background-size: cover;
 background-position: center;
+}
+
+body{
+width: 100%;
+height: 100vh;
+background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(../s-1-1.jpg);
+background-size: cover;
+background-position: center;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+footer p{
+    color: #ffffff;
+    margin: 10px 0px;
+    font-size: 0.9rem;
+}
+
+@media(max-width:1100px) {
+    nav{
+        justify-content: space-between;
+        height: 70px;
+        padding: 0px 10px;
+    }
+
+}
+
+@media(max-width: 680px) {
+
+    footer {
+        justify-content: space-between;
+        padding: 0px 20px;
+        text-align: center;
+    }
 }
 
 body, 
@@ -99,37 +144,37 @@ body,
                 <ul class="sub-menu clearfix">
                     <li><a href="#">Episódio 1</a>
                         <ul class="sub-menu">
-                            <li><a href="https://www.superflix.net/?trembed=0&trid=148386&trtype=2" target="_blank" rel="external">Dublado</a></li>
+                            <li><a href="ep01/index.html" target="_blank" rel="external">Dublado</a></li>
 
                             <li><a href="https://www.superflix.net/?trembed=1&trid=148386&trtype=2" target="_blank" rel="external">Legendado</a></li>
                         </ul>
                     <li><a href="#">Episódio 2</a>
                         <ul class="sub-menu">
-                            <li><a href="https://www.superflix.net/?trembed=0&trid=150011&trtype=2" target="_blank" rel="external">Dublado</a></li>
+                            <li><a href="ep02/index.html" target="_blank" rel="external">Dublado</a></li>
 
                             <li><a href="https://www.superflix.net/?trembed=1&trid=150011&trtype=2" target="_blank" rel="external">Legendado</a></li>
                         </ul>
                     <li><a href="#">Episódio 3</a>
                         <ul class="sub-menu">
-                            <li><a href="https://www.superflix.net/?trembed=0&trid=151399&trtype=2" target="_blank" rel="external">Dublado</a></li>
+                            <li><a href="ep03/index.html" target="_blank" rel="external">Dublado</a></li>
 
                             <li><a href="https://www.superflix.net/?trembed=1&trid=151399&trtype=2" target="_blank" rel="external">Legendado</a></li>
                         </ul>
                     <li><a href="#">Episódio 4</a>
                         <ul class="sub-menu">
-                            <li><a href="https://www.superflix.net/?trembed=0&trid=152957&trtype=2" target="_blank" rel="external">Dublado</a></li>
-
+                            <li><a href="ep04/index.html" target="_blank" rel="external">Dublado</a></li>
+                            
                             <li><a href="https://www.superflix.net/?trembed=1&trid=152957&trtype=2" target="_blank" rel="external">Legendado</a></li>
                         </ul>
                     <li><a href="#">Episódio 5</a>
                         <ul class="sub-menu">
-                            <li><a href="https://www.superflix.net/?trembed=0&trid=154216&trtype=2" target="_blank" rel="external">Dublado</a></li>
+                            <li><a href="ep05/index.html" target="_blank" rel="external">Dublado</a></li>
 
                             <li><a href="https://www.superflix.net/?trembed=1&trid=154216&trtype=2" target="_blank" rel="external">Legendado</a></li>
                         </ul>
                     <li><a href="#">Episódio 6</a>
                         <ul class="sub-menu">
-                            <li><a href="https://www.superflix.net/?trembed=0&trid=155470&trtype=2" target="_blank" rel="external">Dublado</a></li>
+                            <li><a href="ep06/index.html" target="_blank" rel="external">Dublado</a></li>
 
                             <li><a href="https://www.superflix.net/?trembed=1&trid=155470&trtype=2" target="_blank" rel="external">Legendado</a></li>
                         </ul>
@@ -179,5 +224,16 @@ body,
             </li>
         </ul>
     </div>
+
+    <div class="header">
+        <br>
+    </div>
+        <!--Footer-->
+    <footer>
+        <p>Vinicius Piovesan</p>
+        <p>Copyright 2021 - Vinicius Piovesan</p>
+    </footer>
+    </div>
+
 </body>
 </html>
